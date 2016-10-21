@@ -1,0 +1,7 @@
+#Thu Oct 13 16:17:35 CEST 2016
+base.0=E\:\\Documents\\GitHub\\FYBB\\FyBB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_98a11591e29608d34fd1d65353468790986873a3
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\Documents\\GitHub\\FYBB\\FyBB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_17b67567bec8b1a7572e88ce1e502cb4474f6186\\classes.dex
+base.1=E\:\\Documents\\GitHub\\FYBB\\FyBB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run_17b67567bec8b1a7572e88ce1e502cb4474f6186
+file.0=E\:\\Documents\\GitHub\\FYBB\\FyBB\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\instant-run-bootstrap_98a11591e29608d34fd1d65353468790986873a3\\classes.dex
