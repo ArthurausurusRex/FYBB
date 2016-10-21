@@ -13,35 +13,22 @@
         android:theme="@style/AppTheme.AppBarOverlay">
 
         <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="?attr/actionBarSize"
             android:background="?attr/colorPrimary"
-            android:theme="?attr/actionBarTheme"
-            android:minHeight="?attr/actionBarSize"
-            android:id="@+id/toolbar2" />
+            app:popupTheme="@style/AppTheme.PopupOverlay" />
 
+    </android.support.design.widget.AppBarLayout>
 
-<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
-android:layout_width="match_parent"
-android:layout_height="match_parent"
-android:focusable="true"  >
+    <include layout="@layout/content_main" />
 
-<ListView android:id="@android:id/list"
-    style="?android:attr/listViewWhiteStyle"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:drawSelectorOnTop="false"
-    android:scrollbarStyle="insideOverlay"
-    android:background="@android:color/white"
-    android:cacheColorHint="@android:color/white"
-    android:fadingEdgeLength="16dip" />
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
 
-<TextView android:id="@+id/empty"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:gravity="center"
-    android:text="@string/loading_conversations"
-    android:textAppearance="?android:attr/textAppearanceMedium" />
-
-</RelativeLayout>
-
+</android.support.design.widget.CoordinatorLayout>
